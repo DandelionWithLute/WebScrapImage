@@ -32,3 +32,4 @@ for anchor in anchors[4:-6]:
             print("Error getting {}.".format(gifFile))
     except KeyError:
         print(KeyError)
+print("All files have been downloaded!")
